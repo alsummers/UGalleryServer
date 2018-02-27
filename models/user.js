@@ -5,7 +5,7 @@ module.exports = function(sequelize, DataTypes) {
             type: DataTypes.STRING,
             validate: {
                 len: {
-                    args: [0,6],
+                    args: [6],
                     msg: "Password must be 6 character minimum"
                 }
             }
